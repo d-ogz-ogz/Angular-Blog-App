@@ -20,7 +20,7 @@ import { UserModel } from '../models/UserModel';
 export class AccountService {
   userExist = true;
   loggedIn: boolean = false
-  apiUrl = "https://localhost:7120"
+  private apiUrl = "https://localhost:7120"
   loggedUser = new UserModel
 
 
